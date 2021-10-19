@@ -1,0 +1,16 @@
+.idea
+HELP.md
+one/target/
+one/!.mvn/wrapper/maven-wrapper.jar
+one/!**/src/main/**/target/
+one/!**/src/test/**/target/
+
+two/target/
+two/!.mvn/wrapper/maven-wrapper.jar
+two/!**/src/main/**/target/
+two/!**/src/test/**/target/
+
+three/target/
+three/!.mvn/wrapper/maven-wrapper.jar
+three/!**/src/main/**/target/
+three/!**/src/test/**/target/
