@@ -14,3 +14,8 @@ three/target/
 three/!.mvn/wrapper/maven-wrapper.jar
 three/!**/src/main/**/target/
 three/!**/src/test/**/target/
+
+eureka-server/target/
+eureka-server/!.mvn/wrapper/maven-wrapper.jar
+eureka-server/!**/src/main/**/target/
+eureka-server/!**/src/test/**/target/
