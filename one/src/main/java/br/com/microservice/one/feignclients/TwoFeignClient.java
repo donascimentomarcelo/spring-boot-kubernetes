@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Component
-@FeignClient(name = "app-two", url = "localhost:8002", path = "/api/healthCheck")
+@FeignClient(name = "app-two", path = "/api/healthCheck")
 public interface TwoFeignClient {
 
     @GetMapping
