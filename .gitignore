@@ -19,3 +19,8 @@ eureka-server/target/
 eureka-server/!.mvn/wrapper/maven-wrapper.jar
 eureka-server/!**/src/main/**/target/
 eureka-server/!**/src/test/**/target/
+
+api-gateway-zuul/target/
+api-gateway-zuul/!.mvn/wrapper/maven-wrapper.jar
+api-gateway-zuul/!**/src/main/**/target/
+api-gateway-zuul/!**/src/test/**/target/
