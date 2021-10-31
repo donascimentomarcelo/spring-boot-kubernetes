@@ -24,7 +24,7 @@ services:
       - eureka-server
 
   eureka-server:
-    image: donascimentomarcelo/eureka-server-kube:1.0
+    image: donascimentomarcelo/eureka-server-kube:1.1
     ports:
       - 8761:8761
     hostname: eureka-server
@@ -32,7 +32,7 @@ services:
       - ms-kubernetes-net
 
   hr-api-gateway-zuul:
-    image: donascimentomarcelo/api-gateway-zuul-kube:1.1
+    image: donascimentomarcelo/api-gateway-zuul-kube:1.2
     ports:
       - 8765:8765
     depends_on:
